@@ -180,8 +180,8 @@ const marker15 = L.marker([1.3511, 103.8718], {icon: bakeryIcon})
   .bindPopup('Gokoku Japanese Bakery (&JOY Japanese Food Street)')
   .addTo(map);
 
-const marker16 = L.marker([1.3047, 103.8360], {icon: bakeryIcon})
-  .bindPopup('Wu Pao Chun')
+const marker16 = L.marker([1.3044, 103.8357], {icon: bakeryIcon})
+  .bindPopup('<a href="https://goo.gl/maps/aUWFfx4mcwkGv3oS9">Wu Pao Chun Orchard Road <br />')
   .addTo(map);
 
 const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
