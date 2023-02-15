@@ -163,13 +163,18 @@ const map = L.map('map', {
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href=https://www.openstreetmap.org/copyright>OpenStreetMap</a> contributors' }).addTo(map);
  
-const basicBeachIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [40, 40],
+const hotelIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [40, 40],
 });
-const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [10, 10],
+const chickenIcon = L.icon({iconUrl: 'chicken.svg',iconSize: [10, 10],
 });
- 
+const chinatownIcon = L.icon({iconUrl: 'coffee.svg',iconSize: [10, 10],
+});
+const coffeeIcon = L.icon({iconUrl: 'garden.svg',iconSize: [10, 10],
+});
+const gardenIcon = L.icon({iconUrl: 'market.svg',iconSize: [10, 10],
+}); 
 
-const marker1 = L.marker([1.2838, 103.8591], {icon: basicBeachIcon})
+const marker1 = L.marker([1.2838, 103.8591], {icon: hotelIcon})
   .bindPopup('Marina Bay Sands')
   .addTo(map);
 
