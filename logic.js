@@ -170,7 +170,7 @@ const chinatownIcon = L.icon({iconUrl: 'coffee.svg',iconSize: [10, 10],
 });
 const coffeeIcon = L.icon({iconUrl: 'garden.svg',iconSize: [10, 10],
 });
-const gardenIcon = L.icon({iconUrl: 'market.svg',iconSize: [10, 10],
+const gardenIcon = L.icon({iconUrl: 'market.svg',iconSize: [40, 40],
 });
 const ourHotelIcon = L.icon({iconUrl: 'ourhotel.svg',iconSize: [40, 40],
 }); 
@@ -184,6 +184,6 @@ const marker36 = L.marker([1.3002, 103.8605], {icon:ourHotelIcon})
   .bindPopup('Park Royal Hotel: Beach Front')
   .addTo(map);
 
-const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
+const marker23 = L.marker([1.3084, 103.8858], {icon: gardenIcon})
   .bindPopup('Mother Dough Bakery')
   .addTo(map);
