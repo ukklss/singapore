@@ -5,26 +5,8 @@
 
 // L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href=https://www.openstreetmap.org/copyright>OpenStreetMap</a> contributors' }).addTo(map);
  
-// const basicBeachIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [40, 40],
-// });
 
- 
 
-// const marker1 = L.marker([1.2838, 103.8591], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker2 = L.marker([1.2816, 103.8636], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker3 = L.marker([1.3138, 103.8159], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker4 = L.marker([1.2893, 103.8631], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
 
 // const marker5 = L.marker([1,3048, 103.8318], {icon: basicBeachIcon})
 //   .bindPopup('Marina Bay Sands')
@@ -173,6 +155,8 @@ const coffeeIcon = L.icon({iconUrl: 'garden.svg',iconSize: [10, 10],
 const gardenIcon = L.icon({iconUrl: 'market.svg',iconSize: [40, 40],
 });
 const ourHotelIcon = L.icon({iconUrl: 'ourhotel.svg',iconSize: [40, 40],
+});
+const ferriswheelIcon = L.icon({iconUrl: 'ferriswheel.svg',iconSize: [40, 40],
 }); 
 
 
@@ -184,6 +168,18 @@ const marker36 = L.marker([1.3002, 103.8605], {icon:ourHotelIcon})
   .bindPopup('Park Royal Hotel: Beach Front')
   .addTo(map);
 
-const marker23 = L.marker([1.3084, 103.8858], {icon: gardenIcon})
+const marker2 = L.marker([1.2816, 103.8636], {icon: gardenIcon})
+  .bindPopup('Gardens by The Bay')
+  .addTo(map);
+
+ const marker3 = L.marker([1.3138, 103.8159], {icon: gardenIcon})
+  .bindPopup('Singapore Botanic Gardens')
+  .addTo(map); 
+
+const marker4 = L.marker([1.2893, 103.8631], {icon: ferriswheelIcon})
+  .bindPopup('Singapore Flyer')
+  .addTo(map);
+
+const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
   .bindPopup('Mother Dough Bakery')
   .addTo(map);
