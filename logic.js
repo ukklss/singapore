@@ -170,13 +170,13 @@ const marker36 = L.marker([1.3002, 103.8605], {icon:ourHotelIcon})
   .bindPopup('Park Royal Hotel: Beach Front')
   .addTo(map);
 
-// const marker2 = L.marker([1.2816, 103.8636], {icon: gardenIcon})
-//   .bindPopup('Gardens by The Bay')
-//   .addTo(map);
+const marker2 = L.marker([1.2816, 103.8636], {icon: gardenIcon})
+  .bindPopup('Gardens by The Bay')
+  .addTo(map);
 
-//  const marker3 = L.marker([1.3138, 103.8159], {icon: gardenIcon})
-//   .bindPopup('Singapore Botanic Gardens')
-//   .addTo(map); 
+ const marker3 = L.marker([1.3138, 103.8159], {icon: gardenIcon})
+  .bindPopup('Singapore Botanic Gardens')
+  .addTo(map); 
 
 const marker4 = L.marker([1.2893, 103.8631], {icon: ferriswheelIcon})
   .bindPopup('Singapore Flyer')
