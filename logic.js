@@ -180,7 +180,7 @@ const marker1 = L.marker([1.2838, 103.8591], {icon: hotelIcon})
   .bindPopup('Marina Bay Sands')
   .addTo(map);
 
-const marker36 = L.marker([1.30024, 103.8605], {icon:ourHotelIcon}).addTo(map)
+const marker36 = L.marker([1.30024, 103.8605], {icon:ourHotelIcon})
   .bindPopup('Park Royal Hotel: Beach Front')
   .addTo(map);
 
