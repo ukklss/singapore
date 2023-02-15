@@ -17,51 +17,6 @@
 
 // // Food
 
-// const marker10 = L.marker([1.2863, 103.8049], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker11 = L.marker([1.3215, 103.9241], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker12 = L.marker([1.3526, 103.9447], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker13 = L.marker([1.2941, 103.8320], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker14 = L.marker([1.292371830061868, 103.85987245546445], {icon: basicBeachIcon})
-
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker15 = L.marker([1.3511280453513634, 103.87187075546444], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker16 = L.marker([1.3047010983105214, 103.83604021128308], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker17 = L.marker([1.3041491553898554, 103.83248798934842], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker18 = L.marker([1.3145158013913716, 103.85278448430066], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker19 = L.marker([1.303628142062989, 103.85888912472431], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
-// const marker20 = L.marker([1.2785629172136237, 103.84371652883583], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
-
 // const marker21 = L.marker([1.2805365307536163, 103.84476795474643], {icon: basicBeachIcon})
 //   .bindPopup('Marina Bay Sands')
 //   .addTo(map);
@@ -198,6 +153,56 @@ const marker8 = L.marker([1.2902, 103.8515], {icon: museumIcon})
 const marker9 = L.marker([1.2494, 103.8303], {icon: beachIcon})
   .bindPopup('Sentosa Island')
   .addTo(map);
+
+
+
+ 
+
+//Food
+
+const marker10 = L.marker([1.2863, 103.8049], {icon: coffeeIcon})
+  .bindPopup('Durian Lab Cafe')
+  .addTo(map);
+
+const marker11 = L.marker([1.3215, 103.9241], {icon: bakeryIcon})
+  .bindPopup('Durian Bakery')
+  .addTo(map);
+
+const marker12 = L.marker([1.3526, 103.9447], {icon: bakeryIcon})
+  .bindPopup('Gokoku Japanese Bakery (Juro Point)')
+  .addTo(map);
+
+const marker13 = L.marker([1.2941, 103.8320], {icon: bakeryIcon})
+  .bindPopup('Gokoku Japanese Bakery (Great World)')
+  .addTo(map);
+
+const marker14 = L.marker([1.2923, 103.8598], {icon: bakeryIcon})
+  .bindPopup('Gokoku Japanese Bakery (Millenia Walk)')
+  .addTo(map);
+
+const marker15 = L.marker([1.3511, 103.8718], {icon: bakeryIcon})
+  .bindPopup('Gokoku Japanese Bakery (&JOY Japanese Food Street)')
+  .addTo(map);
+
+const marker16 = L.marker([1.3047, 103.8360], {icon: bakeryIcon})
+  .bindPopup('Wu Pao Chun')
+  .addTo(map);
+
+const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
+  .bindPopup('Le Matin Patisserie')
+  .addTo(map);
+
+const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
+  .bindPopup('Marina Bay Sands')
+  .addTo(map);
+
+const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
+  .bindPopup('Marina Bay Sands')
+  .addTo(map);
+
+const marker20 = L.marker([1.2785, 103.8437], {icon: basicBeachIcon})
+  .bindPopup('Marina Bay Sands')
+  .addTo(map);  
  
 const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
   .bindPopup('Mother Dough Bakery')
