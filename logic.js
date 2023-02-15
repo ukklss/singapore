@@ -150,11 +150,11 @@ const chickenIcon = L.icon({iconUrl: 'chicken.svg',iconSize: [40, 40],
 });
 const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [40, 40],
 });
-const chinatownIcon = L.icon({iconUrl: 'coffee.svg',iconSize: [40, 40],
+const chinatownIcon = L.icon({iconUrl: 'chinatown.svg',iconSize: [40, 40],
 });
-const coffeeIcon = L.icon({iconUrl: 'garden.svg',iconSize: [40, 40],
+const coffeeIcon = L.icon({iconUrl: 'coffee.svg',iconSize: [40, 40],
 });
-const gardenIcon = L.icon({iconUrl: 'market.svg',iconSize: [40, 40],
+const gardenIcon = L.icon({iconUrl: 'garden.svg',iconSize: [40, 40],
 });
 const ourHotelIcon = L.icon({iconUrl: 'ourhotel.svg',iconSize: [40, 40],
 });
