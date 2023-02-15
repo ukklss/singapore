@@ -155,42 +155,38 @@ const marker9 = L.marker([1.2494, 103.8303], {icon: beachIcon})
   .addTo(map);
 
 
-
- 
-
 //Food
-
 const marker10 = L.marker([1.2863, 103.8049], {icon: coffeeIcon})
   .bindPopup('Durian Lab Cafe')
   .addTo(map);
 
-const marker11 = L.marker([1.3215, 103.9241], {icon: bakeryIcon})
-  .bindPopup('Durian Bakery')
-  .addTo(map);
+// const marker11 = L.marker([1.3215, 103.9241], {icon: bakeryIcon})
+//   .bindPopup('Durian Bakery')
+//   .addTo(map);
 
-const marker12 = L.marker([1.3526, 103.9447], {icon: bakeryIcon})
-  .bindPopup('Gokoku Japanese Bakery (Juro Point)')
-  .addTo(map);
+// const marker12 = L.marker([1.3526, 103.9447], {icon: bakeryIcon})
+//   .bindPopup('Gokoku Japanese Bakery (Juro Point)')
+//   .addTo(map);
 
-const marker13 = L.marker([1.2941, 103.8320], {icon: bakeryIcon})
-  .bindPopup('Gokoku Japanese Bakery (Great World)')
-  .addTo(map);
+// const marker13 = L.marker([1.2941, 103.8320], {icon: bakeryIcon})
+//   .bindPopup('Gokoku Japanese Bakery (Great World)')
+//   .addTo(map);
 
-const marker14 = L.marker([1.2923, 103.8598], {icon: bakeryIcon})
-  .bindPopup('Gokoku Japanese Bakery (Millenia Walk)')
-  .addTo(map);
+// const marker14 = L.marker([1.2923, 103.8598], {icon: bakeryIcon})
+//   .bindPopup('Gokoku Japanese Bakery (Millenia Walk)')
+//   .addTo(map);
 
-const marker15 = L.marker([1.3511, 103.8718], {icon: bakeryIcon})
-  .bindPopup('Gokoku Japanese Bakery (&JOY Japanese Food Street)')
-  .addTo(map);
+// const marker15 = L.marker([1.3511, 103.8718], {icon: bakeryIcon})
+//   .bindPopup('Gokoku Japanese Bakery (&JOY Japanese Food Street)')
+//   .addTo(map);
 
-const marker16 = L.marker([1.3047, 103.8360], {icon: bakeryIcon})
-  .bindPopup('Wu Pao Chun')
-  .addTo(map);
+// const marker16 = L.marker([1.3047, 103.8360], {icon: bakeryIcon})
+//   .bindPopup('Wu Pao Chun')
+//   .addTo(map);
 
-const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
-  .bindPopup('Le Matin Patisserie')
-  .addTo(map);
+// const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
+//   .bindPopup('Le Matin Patisserie')
+//   .addTo(map);
 
 // const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
 //   .bindPopup('Marina Bay Sands')
