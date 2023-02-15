@@ -146,11 +146,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:
  
 const hotelIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [40, 40],
 });
-const chickenIcon = L.icon({iconUrl: 'chicken.svg',iconSize: [10, 10],
+const chickenIcon = L.icon({iconUrl: 'chicken.svg',iconSize: [40, 40],
 });
-const chinatownIcon = L.icon({iconUrl: 'coffee.svg',iconSize: [10, 10],
+const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [40, 40],
 });
-const coffeeIcon = L.icon({iconUrl: 'garden.svg',iconSize: [10, 10],
+const chinatownIcon = L.icon({iconUrl: 'coffee.svg',iconSize: [40, 40],
+});
+const coffeeIcon = L.icon({iconUrl: 'garden.svg',iconSize: [40, 40],
 });
 const gardenIcon = L.icon({iconUrl: 'market.svg',iconSize: [40, 40],
 });
