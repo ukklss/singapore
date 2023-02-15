@@ -163,9 +163,9 @@ const map = L.map('map', {
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href=https://www.openstreetmap.org/copyright>OpenStreetMap</a> contributors' }).addTo(map);
  
-const basicBeachIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [30, 30],
+const basicBeachIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [40, 40],
 });
-const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [30, 30],
+const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [440, 440],
 });
  
 
