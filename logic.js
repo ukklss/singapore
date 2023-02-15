@@ -8,9 +8,7 @@
 
 
 
-// const marker5 = L.marker([1,3048, 103.8318], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
+
 
 // const marker6 = L.marker([1.2818, 103.8439], {icon: basicBeachIcon})
 //   .bindPopup('Marina Bay Sands')
@@ -159,7 +157,9 @@ const gardenIcon = L.icon({iconUrl: 'garden.svg',iconSize: [40, 40],
 const ourHotelIcon = L.icon({iconUrl: 'ourhotel.svg',iconSize: [40, 40],
 });
 const ferriswheelIcon = L.icon({iconUrl: 'ferriswheel.svg',iconSize: [40, 40],
-}); 
+});
+const orchardRoadIcon = L.icon({iconUrl: 'shopping.svg',iconSize: [40, 40],
+});  
 
 
 const marker1 = L.marker([1.2838, 103.8591], {icon: hotelIcon})
@@ -181,6 +181,10 @@ const marker2 = L.marker([1.2816, 103.8636], {icon: gardenIcon})
 const marker4 = L.marker([1.2893, 103.8631], {icon: ferriswheelIcon})
   .bindPopup('Singapore Flyer')
   .addTo(map);
+
+ const marker5 = L.marker([1.3048, 103.8318], {icon: orchardRoadIcon})
+  .bindPopup('Marina Bay Sands')
+  .addTo(map); 
 
 const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
   .bindPopup('Mother Dough Bakery')
