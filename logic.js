@@ -192,18 +192,18 @@ const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
   .bindPopup('Le Matin Patisserie')
   .addTo(map);
 
-const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
-  .bindPopup('Marina Bay Sands')
-  .addTo(map);
+// const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
+//   .bindPopup('Marina Bay Sands')
+//   .addTo(map);
 
-const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
-  .bindPopup('Marina Bay Sands')
-  .addTo(map);
+// const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
+//   .bindPopup('Marina Bay Sands')
+//   .addTo(map);
 
-const marker20 = L.marker([1.2785, 103.8437], {icon: basicBeachIcon})
-  .bindPopup('Marina Bay Sands')
-  .addTo(map);  
+// const marker20 = L.marker([1.2785, 103.8437], {icon: basicBeachIcon})
+//   .bindPopup('Marina Bay Sands')
+//   .addTo(map);  
  
-const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
-  .bindPopup('Mother Dough Bakery')
-  .addTo(map);
+// const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
+//   .bindPopup('Mother Dough Bakery')
+//   .addTo(map);
