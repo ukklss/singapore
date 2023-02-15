@@ -144,11 +144,11 @@
 //   .bindPopup('Marina Bay Sands')
 //   .addTo(map);
 
-// const marker34 = L.marker([1.2860803986513647, 103.84589033644124, {icon: basicBeachIcon})
+// const marker34 = L.marker([1.2860803986513647, 103.84589033644124], {icon: basicBeachIcon})
 //   .bindPopup('Marina Bay Sands')
 //   .addTo(map);
 
-// const marker28 = L.marker([]).addTo(map);
+// const marker35 = L.marker([1.2863591755348776, 103.8592400677067], {icon: museumIcon}).addTo(map);
 
 // const marker28 = L.marker([]).addTo(map);
 
@@ -165,7 +165,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution:
  
 const basicBeachIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [40, 40],
 });
-const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [440, 440],
+const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [10, 10],
 });
  
 
