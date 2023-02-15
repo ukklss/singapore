@@ -172,7 +172,7 @@ const coffeeIcon = L.icon({iconUrl: 'garden.svg',iconSize: [10, 10],
 });
 const gardenIcon = L.icon({iconUrl: 'market.svg',iconSize: [10, 10],
 });
-const ourHotelIcon = L.icon({iconUrl: 'ourhotel.svg',iconSize: [10, 10],
+const ourHotelIcon = L.icon({iconUrl: 'ourhotel.svg',iconSize: [40, 40],
 }); 
 
 
