@@ -126,11 +126,11 @@ const marker9 = L.marker([1.2494, 103.8303], {icon: beachIcon})
 
 //Food
 const marker10 = L.marker([1.2863, 103.8049], {icon: coffeeIcon})
-  .bindPopup('Durian Lab Cafe')
+  .bindPopup('<a href="https://goo.gl/maps/Qc3cyHsdfNxZM3bA6">Durian Lab Cafe</a>')
   .addTo(map);
 
-const marker11 = L.marker([1.3215, 103.9241], {icon: bakeryIcon})
-  .bindPopup('Durian Bakery')
+const marker11 = L.marker([1.3214, 103.9241], {icon: bakeryIcon})
+  .bindPopup('<a href="https://goo.gl/maps/tA9VwWhNy89G1C9MA">The Durian Bakery</a>')
   .addTo(map);
 
 const marker12 = L.marker([1.3526, 103.9447], {icon: bakeryIcon})
@@ -249,9 +249,9 @@ const marker41 = L.marker([1.2850, 103.84975], {icon: bubbleIcon})
   .bindPopup('<a href="https://goo.gl/maps/8b9b56rnZsn43rym6">Tea Pulse</a>')
   .addTo(map); 
 
-// const marker = L.marker([], {icon: Icon})
-//   .bindPopup('<a href=""></a>')
-//   .addTo(map); 
+const marker42 = L.marker([1.3061, 103.8563], {icon: bakeryIcon})
+  .bindPopup('<a href="https://goo.gl/maps/pTZdChdLCAiC48UZA">Ms Durian</a>')
+  .addTo(map); 
 
 // const marker = L.marker([], {icon: Icon})
 //   .bindPopup('<a href=""></a>')
