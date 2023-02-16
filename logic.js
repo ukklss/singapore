@@ -74,6 +74,8 @@ const museumIcon = L.icon({iconUrl: 'icons/museum.svg',iconSize: [40, 40],
 const beachIcon = L.icon({iconUrl: 'icons/island.svg',iconSize: [40, 40],
 });      
 const marketIcon = L.icon({iconUrl: 'icons/market.svg',iconSize: [40, 40],
+});
+const waffleIcon = L.icon({iconUrl: 'icons/waffle.svg',iconSize: [40, 40],
 });      
 
 
@@ -187,18 +189,18 @@ const marker26 = L.marker([1.3112174976707525, 103.7882870400675], {icon: market
   .bindPopup('<a href="https://goo.gl/maps/u2ADzbLRddJzybhG9"><b>20 Ghim Moh Market and Food Centre</b></a> <br> Li Lao San Ghim Moh Chwee Kueh <br>Jiu Jiang Shao La')
   .addTo(map);
 
-// const marker27 = L.marker([1.2852664127104851, 103.83285434006758], {icon: marketIcon})
-//   .bindPopup('Tiong Bahru Market')
-//   .addTo(map);
-
-const marker28 = L.marker([1.2858722134470977, 103.84199134990234], {icon: chickenIcon})
-  .bindPopup('Liao Fan Hawker Chan Soya Sauce Chicken Rice and Noodle (Chinatown)')
+const marker27 = L.marker([1.2853, 103.8328], {icon: marketIcon})
+  .bindPopup('<a href="https://goo.gl/maps/WwjM6RiiG9Fn6kKV8">Tiong Bahru Market</a> <br> Tiong Bahru Lor Mee <br> Zhong Yu Yuan Wi Wanton Mee <br> Tiong Bahru Hainanese Boneless Chicken Rice')
   .addTo(map);
 
-// const marker29 = L.marker([1.3380435890447093, 103.88885490477573], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
+const marker28 = L.marker([1.2833, 103.8429], {icon: chickenIcon})
+  .bindPopup('<a href="https://goo.gl/maps/ZisTymYPotysgJt19">Liao Fan Hawker Chan Soya Sauce Chicken Rice and Noodle (Chinatown)</a>')
+  .addTo(map);
 
-// const marker30 = L.marker([1.3556159706916826, 103.83632994006739], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
+  const marker29 = L.marker([1.3361, 103.8887], {icon: chickenIcon})
+  .bindPopup('<a href="https://goo.gl/maps/ZisTymYPotysgJt19">Liao Fan Hawker Chan Soya Sauce Chicken Rice and Noodle (Tai Seng)</a>')
+  .addTo(map);
+
+const marker30 = L.marker([1.3556, 103.8363], {icon: waffleIcon})
+  .bindPopup('Sin Ming Roti Prata')
+  .addTo(map);
