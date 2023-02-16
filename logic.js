@@ -183,17 +183,17 @@ const marker25 = L.marker([1.3242, 103.8141], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/Vo6CmCa3Ez4JHWrg7"><b>Adam Road Centre</b></a> <br /> Selera Rasa Nasi Lemak <br /> Bahrakath Mutton Soup King ')
   .addTo(map);
 
-const marker26 = L.marker([1.3112174976707525, 103.7882870400675], {icon: basicBeachIcon})
+const marker26 = L.marker([1.3112174976707525, 103.7882870400675], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/u2ADzbLRddJzybhG9"><b>20 Ghim Moh Market and Food Centre</b></a> <br> Li Lao San Ghim Moh Chwee Kueh <br>Jiu Jiang Shao La')
   .addTo(map);
 
-// const marker27 = L.marker([1.2852664127104851, 103.83285434006758], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
+// const marker27 = L.marker([1.2852664127104851, 103.83285434006758], {icon: marketIcon})
+//   .bindPopup('Tiong Bahru Market')
 //   .addTo(map);
 
-// const marker28 = L.marker([1.2858722134470977, 103.84199134990234], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
+const marker28 = L.marker([1.2858722134470977, 103.84199134990234], {icon: chickenIcon})
+  .bindPopup('Liao Fan Hawker Chan Soya Sauce Chicken Rice and Noodle (Chinatown)')
+  .addTo(map);
 
 // const marker29 = L.marker([1.3380435890447093, 103.88885490477573], {icon: basicBeachIcon})
 //   .bindPopup('Marina Bay Sands')
