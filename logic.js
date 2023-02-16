@@ -253,14 +253,19 @@ const marker42 = L.marker([1.3061, 103.8563], {icon: bakeryIcon})
   .bindPopup('<a href="https://goo.gl/maps/pTZdChdLCAiC48UZA">Ms Durian</a>')
   .addTo(map); 
 
-// const marker = L.marker([], {icon: Icon})
-//   .bindPopup('<a href=""></a>')
-//   .addTo(map); 
+const marker43 = L.marker([1.2932, 103.8511], {icon: bakeryIcon})
+  .bindPopup('<a href="https://goo.gl/maps/gYF3U8yqDuY53nFQ6">Wu Pao Chun Capitol Piazza</a>')
+  .addTo(map); 
+
+const marker44 = L.marker([1.2940, 103.8386], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/8eBrYE4qraDkogaDA">Common Man Coffee Roasters</a>')
+  .addTo(map); 
+
+const marker45 = L.marker([1.3391, 103.9061], {icon: Icon})
+  .bindPopup('<a href="https://goo.gl/maps/t5qkPLAiAuGuW2iH9">Compound Coffee Co.</a>')
+  .addTo(map); 
 
 // const marker = L.marker([], {icon: Icon})
 //   .bindPopup('<a href=""></a>')
 //   .addTo(map); 
-
-
-
 
