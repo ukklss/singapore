@@ -80,14 +80,16 @@ const waffleIcon = L.icon({iconUrl: 'icons/waffle.svg',iconSize: [40, 40],
 const noodleIcon = L.icon({iconUrl: 'icons/noodles.svg',iconSize: [40, 40],
 });
 const bubbleIcon = L.icon({iconUrl: 'icons/bubble.svg',iconSize: [40, 40],
-});              
+});
+const homeIcon = L.icon({iconUrl: 'icons/hotel2.svg',iconSize: [70, 70],
+});               
 
 
 const marker1 = L.marker([1.2838, 103.8591], {icon: ourHotelIcon})
   .bindPopup('Marina Bay Sands')
   .addTo(map);
 
-const marker36 = L.marker([1.3002, 103.8605], {icon:ourHotelIcon})
+const marker36 = L.marker([1.3002, 103.8605], {icon: homeIcon})
   .bindPopup('Park Royal Hotel: Beach Front')
   .addTo(map);
 
