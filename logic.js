@@ -76,7 +76,11 @@ const beachIcon = L.icon({iconUrl: 'icons/island.svg',iconSize: [40, 40],
 const marketIcon = L.icon({iconUrl: 'icons/market.svg',iconSize: [40, 40],
 });
 const waffleIcon = L.icon({iconUrl: 'icons/waffle.svg',iconSize: [40, 40],
-});      
+});
+const noodleIcon = L.icon({iconUrl: 'icons/noodle.svg',iconSize: [40, 40],
+});
+const bubbleIcon = L.icon({iconUrl: 'icons/bubble.svg',iconSize: [40, 40],
+});              
 
 
 const marker1 = L.marker([1.2838, 103.8591], {icon: ourHotelIcon})
@@ -185,7 +189,7 @@ const marker25 = L.marker([1.3242, 103.8141], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/Vo6CmCa3Ez4JHWrg7"><b>Adam Road Centre</b></a> <br /> Selera Rasa Nasi Lemak <br /> Bahrakath Mutton Soup King ')
   .addTo(map);
 
-const marker26 = L.marker([1.3112174976707525, 103.7882870400675], {icon: marketIcon})
+const marker26 = L.marker([1.3112, 103.7882], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/u2ADzbLRddJzybhG9"><b>20 Ghim Moh Market and Food Centre</b></a> <br> Li Lao San Ghim Moh Chwee Kueh <br>Jiu Jiang Shao La')
   .addTo(map);
 
@@ -232,5 +236,31 @@ const marker37 = L.marker([1.2796, 103.8467], {icon: marketIcon})
 const marker38 = L.marker([1.3012, 103.8378], {icon: coffeeIcon})
   .bindPopup('<a href="https://goo.gl/maps/eoYbRPo5G9vS7ESs6">Oriole Coffee + Bar</a>')
   .addTo(map); 
+
+const marker39 = L.marker([1.3611, 103.8877], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/4aZjGHr74fc4CT5s5">Two Cranes Cafe</a>')
+  .addTo(map); 
+
+const marker40 = L.marker([1.3053, 103.8625], {icon: noodleIcon})
+  .bindPopup('<a href="https://goo.gl/maps/FxZP85RLsvhE34Rq9">Hill Street Tai Hwa</a>')
+  .addTo(map); 
+
+const marker41 = L.marker([1.2850, 103.84975], {icon: bubbleIcon})
+  .bindPopup('<a href="https://goo.gl/maps/8b9b56rnZsn43rym6"></a>')
+  .addTo(map); 
+
+// const marker = L.marker([], {icon: Icon})
+//   .bindPopup('<a href=""></a>')
+//   .addTo(map); 
+
+// const marker = L.marker([], {icon: Icon})
+//   .bindPopup('<a href=""></a>')
+//   .addTo(map); 
+
+// const marker = L.marker([], {icon: Icon})
+//   .bindPopup('<a href=""></a>')
+//   .addTo(map); 
+
+
 
 
