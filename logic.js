@@ -261,7 +261,7 @@ const marker44 = L.marker([1.2940, 103.8386], {icon: coffeeIcon})
   .bindPopup('<a href="https://goo.gl/maps/8eBrYE4qraDkogaDA">Common Man Coffee Roasters</a>')
   .addTo(map); 
 
-const marker45 = L.marker([1.3391, 103.9061], {icon: coffeeIcon})
+const marker45 = L.marker([1.3369, 103.9053], {icon: coffeeIcon})
   .bindPopup('<a href="https://goo.gl/maps/t5qkPLAiAuGuW2iH9">Compound Coffee Co.</a>')
   .addTo(map); 
 
