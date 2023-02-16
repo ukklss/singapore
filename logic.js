@@ -204,3 +204,7 @@ const marker28 = L.marker([1.2833, 103.8429], {icon: chickenIcon})
 const marker30 = L.marker([1.3556, 103.8363], {icon: waffleIcon})
   .bindPopup('<a href="https://goo.gl/maps/jK48qNWiwRDV6HGj9">Sin Ming Roti Prata</a>')
   .addTo(map);
+
+const marker31 = L.marker([1.2796, 103.8466], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/jK48qNWiwRDV6HGj9">Coffee Break</a>')
+  .addTo(map);
