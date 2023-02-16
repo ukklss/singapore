@@ -105,7 +105,7 @@ const marker6 = L.marker([1.2818, 103.8439], {icon: chinatownIcon})
   .bindPopup('Chinatown')
   .addTo(map);
 
-const marker7 = L.marker([1,352083, 103.819], {icon: treetopIcon})
+const marker7 = L.marker([1.352083, 103.819], {icon: treetopIcon})
   .bindPopup('Treetop Walk')
   .addTo(map);
 
