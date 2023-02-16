@@ -203,9 +203,9 @@ const marker20 = L.marker([1.2785, 103.8437], {icon: bakeryIcon})
   .addTo(map);
   
 const marker21 = L.marker([1.28053, 103.8447], {icon: marketIcon})
-  .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9"><b>Maxwell Food Centre</a></b> <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
+  .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9"><b>Maxwell Food Centre</b></a> <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
   .addTo(map);
  
 const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
-  .bindPopup('<a href=""></a>')
+  .bindPopup('<a href="https://goo.gl/maps/5PXm3mbKWPZW9g9z8"><b>Old Airport Road Centre</b></a> <br /> Dong Ji Fried Kway Teow')
   .addTo(map);
