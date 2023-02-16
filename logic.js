@@ -183,27 +183,27 @@ const marker15 = L.marker([1.3511, 103.8718], {icon: bakeryIcon})
   .addTo(map);
 
 const marker16 = L.marker([1.3044, 103.8357], {icon: bakeryIcon})
-  .bindPopup('<a href="https://goo.gl/maps/aUWFfx4mcwkGv3oS9">Wu Pao Chun Orchard Road <br />')
+  .bindPopup('<a href="https://goo.gl/maps/aUWFfx4mcwkGv3oS9">Wu Pao Chun Orchard Road</a> <br />')
   .addTo(map);
 
 const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
   .bindPopup('Le Matin Patisserie')
   .addTo(map);
 
-// const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
+const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
+  .bindPopup('Marina Bay Sands')
+  .addTo(map);
 
-// const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
+const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
+  .bindPopup('Marina Bay Sands')
+  .addTo(map);
 
-// const marker20 = L.marker([1.2785, 103.8437], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
-//   .addTo(map);
+const marker20 = L.marker([1.2785, 103.8437], {icon: basicBeachIcon})
+  .bindPopup('Marina Bay Sands')
+  .addTo(map);
   
 const marker21 = L.marker([1.28053, 103.8447], {icon: marketIcon})
-  .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9">Maxwell Food Centre" <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
+  .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9"><center>Maxwell Food Centre</a></center> <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
   .addTo(map);
  
 const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
