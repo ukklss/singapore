@@ -77,7 +77,7 @@ const marketIcon = L.icon({iconUrl: 'icons/market.svg',iconSize: [40, 40],
 });      
 
 
-const marker1 = L.marker([1.2838, 103.8591], {icon: hotelIcon})
+const marker1 = L.marker([1.2838, 103.8591], {icon: ourHotelIcon})
   .bindPopup('Marina Bay Sands')
   .addTo(map);
 
