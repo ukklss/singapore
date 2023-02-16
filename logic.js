@@ -167,21 +167,21 @@ const marker21 = L.marker([1.28053, 103.8447], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9"><b>Maxwell Food Centre</b></a> <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
   .addTo(map);
 
-const marker22 = L.marker([1.3168, 103.8055], {icon: bakeryIcon})
-  .bindPopup('<a href="https://goo.gl/maps/5BGcu2mJe7V9YTjH8">Bakery Brera & Fine Foods</a>')
-  .addTo(map);
- 
-const marker23 = L.marker([1.3084, 103.8858], {icon: marketIcon})
-  .bindPopup('<a href="https://goo.gl/maps/5PXm3mbKWPZW9g9z8"><b>Old Airport Road Centre</b></a> <br /> Dong Ji Fried Kway Teow')
-  .addTo(map);
-
-const marker24 = L.marker([1.3494, 103.8499], {icon: marketIcon})
-  .bindPopup('<a href="https://goo.gl/maps/Hkhn8zFjMvj2wrwA6">Kim San Leng Food Centre Bishan</a>')
-  .addTo(map);
-
-// const marker25 = L.marker([1.3242237405447168, 103.81412231123171], {icon: basicBeachIcon})
-//   .bindPopup('Marina Bay Sands')
+// const marker22 = L.marker([1.3168, 103.8055], {icon: bakeryIcon})
+//   .bindPopup('<a href="https://goo.gl/maps/5BGcu2mJe7V9YTjH8">Bakery Brera & Fine Foods</a>')
 //   .addTo(map);
+ 
+// const marker23 = L.marker([1.3084, 103.8858], {icon: marketIcon})
+//   .bindPopup('<a href="https://goo.gl/maps/5PXm3mbKWPZW9g9z8"><b>Old Airport Road Centre</b></a> <br /> Dong Ji Fried Kway Teow')
+//   .addTo(map);
+
+// const marker24 = L.marker([1.3494, 103.8499], {icon: marketIcon})
+//   .bindPopup('<a href="https://goo.gl/maps/Hkhn8zFjMvj2wrwA6">Kim San Leng Food Centre Bishan</a>')
+//   .addTo(map);
+
+// const marker25 = L.marker([1.3242, 103.8141], {icon: marketIcon})
+//   .bindPopup('<a href="https://goo.gl/maps/Vo6CmCa3Ez4JHWrg7"><b>Adam Road Centre</b></a> <br /> Selera Rasa Nasi Lemak <br /> Bahrakath Mutton Soup King ')
+  // .addTo(map);
 
 // const marker26 = L.marker([1.3112174976707525, 103.7882870400675], {icon: basicBeachIcon})
 //   .bindPopup('Marina Bay Sands')
