@@ -77,7 +77,7 @@ const marketIcon = L.icon({iconUrl: 'icons/market.svg',iconSize: [40, 40],
 });
 const waffleIcon = L.icon({iconUrl: 'icons/waffle.svg',iconSize: [40, 40],
 });
-const noodleIcon = L.icon({iconUrl: 'icons/noodle.svg',iconSize: [40, 40],
+const noodleIcon = L.icon({iconUrl: 'icons/noodles.svg',iconSize: [40, 40],
 });
 const bubbleIcon = L.icon({iconUrl: 'icons/bubble.svg',iconSize: [40, 40],
 });              
@@ -246,7 +246,7 @@ const marker40 = L.marker([1.3053, 103.8625], {icon: noodleIcon})
   .addTo(map); 
 
 const marker41 = L.marker([1.2850, 103.84975], {icon: bubbleIcon})
-  .bindPopup('<a href="https://goo.gl/maps/8b9b56rnZsn43rym6"></a>')
+  .bindPopup('<a href="https://goo.gl/maps/8b9b56rnZsn43rym6">Tea Pulse</a>')
   .addTo(map); 
 
 // const marker = L.marker([], {icon: Icon})
