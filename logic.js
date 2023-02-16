@@ -76,7 +76,11 @@ const beachIcon = L.icon({iconUrl: 'icons/island.svg',iconSize: [40, 40],
 const marketIcon = L.icon({iconUrl: 'icons/market.svg',iconSize: [40, 40],
 });
 const waffleIcon = L.icon({iconUrl: 'icons/waffle.svg',iconSize: [40, 40],
-});      
+});
+const noodleIcon = L.icon({iconUrl: 'icons/noodles.svg',iconSize: [40, 40],
+});
+const bubbleIcon = L.icon({iconUrl: 'icons/bubble.svg',iconSize: [40, 40],
+});              
 
 
 const marker1 = L.marker([1.2838, 103.8591], {icon: ourHotelIcon})
@@ -122,11 +126,11 @@ const marker9 = L.marker([1.2494, 103.8303], {icon: beachIcon})
 
 //Food
 const marker10 = L.marker([1.2863, 103.8049], {icon: coffeeIcon})
-  .bindPopup('Durian Lab Cafe')
+  .bindPopup('<a href="https://goo.gl/maps/Qc3cyHsdfNxZM3bA6">Durian Lab Cafe</a>')
   .addTo(map);
 
-const marker11 = L.marker([1.3215, 103.9241], {icon: bakeryIcon})
-  .bindPopup('Durian Bakery')
+const marker11 = L.marker([1.3214, 103.9241], {icon: bakeryIcon})
+  .bindPopup('<a href="https://goo.gl/maps/tA9VwWhNy89G1C9MA">The Durian Bakery</a>')
   .addTo(map);
 
 const marker12 = L.marker([1.3526, 103.9447], {icon: bakeryIcon})
@@ -185,7 +189,7 @@ const marker25 = L.marker([1.3242, 103.8141], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/Vo6CmCa3Ez4JHWrg7"><b>Adam Road Centre</b></a> <br /> Selera Rasa Nasi Lemak <br /> Bahrakath Mutton Soup King ')
   .addTo(map);
 
-const marker26 = L.marker([1.3112174976707525, 103.7882870400675], {icon: marketIcon})
+const marker26 = L.marker([1.3112, 103.7882], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/u2ADzbLRddJzybhG9"><b>20 Ghim Moh Market and Food Centre</b></a> <br> Li Lao San Ghim Moh Chwee Kueh <br>Jiu Jiang Shao La')
   .addTo(map);
 
@@ -208,3 +212,55 @@ const marker30 = L.marker([1.3556, 103.8363], {icon: waffleIcon})
 const marker31 = L.marker([1.2796, 103.8466], {icon: coffeeIcon})
   .bindPopup('<a href="https://goo.gl/maps/jK48qNWiwRDV6HGj9">Coffee Break</a>')
   .addTo(map);
+
+const marker32 = L.marker([1.42753, 103.8382], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/mhi2nzmMnf3rtRtQ6">Slow Bakes</a>')
+  .addTo(map);
+  
+const marker33 = L.marker([1.3126, 103.9255], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/Rg1RKNUp5BmRxdx5A">Five Oars Coffee Roasters</a>')
+  .addTo(map); 
+
+const marker34 = L.marker([1.3063, 103.8511], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/i5bqtoUce528vir8A"><b>Tekka Centre</b></a> <br>Allaudin Biryani')
+  .addTo(map); 
+
+const marker35 = L.marker([1.3122, 103.8395], {icon: marketIcon})
+  .bindPopup('<a href="https://goo.gl/maps/Gdv4QRXoreSfQ28s5">Newton Food Centre</a><br> Hup Kee Fried Oyster Omelette')
+  .addTo(map); 
+
+const marker37 = L.marker([1.2796, 103.8467], {icon: marketIcon})
+  .bindPopup('<a href="https://goo.gl/maps/K39SQNZkpN7nN81GA">Amoy Food Centre</a> <br>Hoo Kee Rice Dumplings <br>Amoy Street Fried Kway Teow')
+  .addTo(map);
+
+const marker38 = L.marker([1.3012, 103.8378], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/eoYbRPo5G9vS7ESs6">Oriole Coffee + Bar</a>')
+  .addTo(map); 
+
+const marker39 = L.marker([1.3611, 103.8877], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/4aZjGHr74fc4CT5s5">Two Cranes Cafe</a>')
+  .addTo(map); 
+
+const marker40 = L.marker([1.3053, 103.8625], {icon: noodleIcon})
+  .bindPopup('<a href="https://goo.gl/maps/FxZP85RLsvhE34Rq9">Hill Street Tai Hwa</a>')
+  .addTo(map); 
+
+const marker41 = L.marker([1.2850, 103.84975], {icon: bubbleIcon})
+  .bindPopup('<a href="https://goo.gl/maps/8b9b56rnZsn43rym6">Tea Pulse</a>')
+  .addTo(map); 
+
+const marker42 = L.marker([1.3061, 103.8563], {icon: bakeryIcon})
+  .bindPopup('<a href="https://goo.gl/maps/pTZdChdLCAiC48UZA">Ms Durian</a>')
+  .addTo(map); 
+
+// const marker = L.marker([], {icon: Icon})
+//   .bindPopup('<a href=""></a>')
+//   .addTo(map); 
+
+// const marker = L.marker([], {icon: Icon})
+//   .bindPopup('<a href=""></a>')
+//   .addTo(map); 
+
+
+
+
