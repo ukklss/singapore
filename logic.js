@@ -156,7 +156,7 @@ const marker18 = L.marker([1.3145, 103.8527], {icon: bakeryIcon})
   .addTo(map);
 
 const marker19 = L.marker([1.3036, 103.8588], {icon: bakeryIcon})
-  .bindPopup('<a hre="https://goo.gl/maps/9zQL2UQoW9FMZdPA9">Mother Dough Bakery</a>')
+  .bindPopup('<a href="https://goo.gl/maps/9zQL2UQoW9FMZdPA9">Mother Dough Bakery</a>')
   .addTo(map);
 
 const marker20 = L.marker([1.2785, 103.8437], {icon: bakeryIcon})
