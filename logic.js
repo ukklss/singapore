@@ -208,3 +208,29 @@ const marker30 = L.marker([1.3556, 103.8363], {icon: waffleIcon})
 const marker31 = L.marker([1.2796, 103.8466], {icon: coffeeIcon})
   .bindPopup('<a href="https://goo.gl/maps/jK48qNWiwRDV6HGj9">Coffee Break</a>')
   .addTo(map);
+
+const marker32 = L.marker([1.42753, 103.8382], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/mhi2nzmMnf3rtRtQ6">Slow Bakes</a>')
+  .addTo(map);
+  
+const marker33 = L.marker([1.3126, 103.9255], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/Rg1RKNUp5BmRxdx5A">Five Oars Coffee Roasters</a>')
+  .addTo(map); 
+
+const marker34 = L.marker([1.3063, 103.8511], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/i5bqtoUce528vir8A"><b>Tekka Centre</b></a> <br>Allaudin Biryani')
+  .addTo(map); 
+
+const marker35 = L.marker([1.3122, 103.8395], {icon: marketIcon})
+  .bindPopup('<a href="https://goo.gl/maps/Gdv4QRXoreSfQ28s5">Newton Food Centre</a><br> Hup Kee Fried Oyster Omelette')
+  .addTo(map); 
+
+const marker37 = L.marker([1.2796, 103.8467], {icon: marketIcon})
+  .bindPopup('<a href="https://goo.gl/maps/K39SQNZkpN7nN81GA">Amoy Food Centre</a> <br>Hoo Kee Rice Dumplings <br>Amoy Street Fried Kway Teow')
+  .addTo(map);
+
+const marker38 = L.marker([1.3012, 103.8378], {icon: coffeeIcon})
+  .bindPopup('<a href="https://goo.gl/maps/eoYbRPo5G9vS7ESs6">Oriole Coffee + Bar</a>')
+  .addTo(map); 
+
+
