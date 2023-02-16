@@ -195,7 +195,7 @@ const marker18 = L.marker([1.3145, 103.8527], {icon: bakeryIcon})
   .addTo(map);
 
 const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
-  .bindPopup('Marina Bay Sands')
+  .bindPopup('<a hre="https://goo.gl/maps/9zQL2UQoW9FMZdPA9">Mother Dough Bakery</a>')
   .addTo(map);
 
 const marker20 = L.marker([1.2785, 103.8437], {icon: bakeryIcon})
@@ -203,7 +203,7 @@ const marker20 = L.marker([1.2785, 103.8437], {icon: bakeryIcon})
   .addTo(map);
   
 const marker21 = L.marker([1.28053, 103.8447], {icon: marketIcon})
-  .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9"><center>Maxwell Food Centre</a></center> <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
+  .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9"><b>Maxwell Food Centre</a></b> <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
   .addTo(map);
  
 const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
