@@ -203,7 +203,7 @@ const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
 //   .addTo(map);
   
 const marker21 = L.marker([1.28053, 103.8447], {icon: marketIcon})
-  .bindPopup('Marina Bay Sands')
+  .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9">Maxwell Food Centre" <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
   .addTo(map);
  
 const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
