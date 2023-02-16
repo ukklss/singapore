@@ -88,29 +88,31 @@ const map = L.map('map', {
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; <a href=https://www.openstreetmap.org/copyright>OpenStreetMap</a> contributors' }).addTo(map);
  
-const hotelIcon = L.icon({iconUrl: 'hotel.svg',iconSize: [40, 40],
+const hotelIcon = L.icon({iconUrl: 'icons/hotel.svg',iconSize: [40, 40],
 });
-const chickenIcon = L.icon({iconUrl: 'chicken.svg',iconSize: [40, 40],
+const chickenIcon = L.icon({iconUrl: 'icons/chicken.svg',iconSize: [40, 40],
 });
-const bakeryIcon = L.icon({iconUrl: 'bakery.svg',iconSize: [40, 40],
+const bakeryIcon = L.icon({iconUrl: 'icons/bakery.svg',iconSize: [40, 40],
 });
-const chinatownIcon = L.icon({iconUrl: 'chinatown.svg',iconSize: [40, 40],
+const chinatownIcon = L.icon({iconUrl: 'icons/chinatown.svg',iconSize: [40, 40],
 });
-const coffeeIcon = L.icon({iconUrl: 'coffee.svg',iconSize: [40, 40],
+const coffeeIcon = L.icon({iconUrl: 'icons/coffee.svg',iconSize: [40, 40],
 });
-const gardenIcon = L.icon({iconUrl: 'garden.svg',iconSize: [40, 40],
+const gardenIcon = L.icon({iconUrl: 'icons/garden.svg',iconSize: [40, 40],
 });
-const ourHotelIcon = L.icon({iconUrl: 'ourhotel.svg',iconSize: [40, 40],
+const ourHotelIcon = L.icon({iconUrl: 'icons/ourhotel.svg',iconSize: [40, 40],
 });
-const ferriswheelIcon = L.icon({iconUrl: 'ferriswheel.svg',iconSize: [40, 40],
+const ferriswheelIcon = L.icon({iconUrl: 'icons/ferriswheel.svg',iconSize: [40, 40],
 });
-const orchardRoadIcon = L.icon({iconUrl: 'shopping.svg',iconSize: [40, 40],
+const orchardRoadIcon = L.icon({iconUrl: 'icons/shopping.svg',iconSize: [40, 40],
 });
-const treetopIcon = L.icon({iconUrl: 'treetop.svg',iconSize: [40, 40],
+const treetopIcon = L.icon({iconUrl: 'icons/treetop.svg',iconSize: [40, 40],
 }); 
-const museumIcon = L.icon({iconUrl: 'museum.svg',iconSize: [40, 40],
+const museumIcon = L.icon({iconUrl: 'icons/museum.svg',iconSize: [40, 40],
 });
-const beachIcon = L.icon({iconUrl: 'island.svg',iconSize: [40, 40],
+const beachIcon = L.icon({iconUrl: 'icons/island.svg',iconSize: [40, 40],
+});      
+const marketIcon = L.icon({iconUrl: 'icons/market.svg',iconSize: [40, 40],
 });      
 
 
@@ -188,17 +190,21 @@ const marker17 = L.marker([1.3041, 103.8324], {icon: bakeryIcon})
   .bindPopup('Le Matin Patisserie')
   .addTo(map);
 
-const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
+// const marker18 = L.marker([1.3145, 103.8527], {icon: basicBeachIcon})
+//   .bindPopup('Marina Bay Sands')
+//   .addTo(map);
+
+// const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
+//   .bindPopup('Marina Bay Sands')
+//   .addTo(map);
+
+// const marker20 = L.marker([1.2785, 103.8437], {icon: basicBeachIcon})
+//   .bindPopup('Marina Bay Sands')
+//   .addTo(map);
+  
+const marker21 = L.marker([1.28053, 103.8447], {icon: marketIcon})
   .bindPopup('Marina Bay Sands')
   .addTo(map);
-
-const marker19 = L.marker([1.3036, 103.8588], {icon: basicBeachIcon})
-  .bindPopup('Marina Bay Sands')
-  .addTo(map);
-
-const marker20 = L.marker([1.2785, 103.8437], {icon: basicBeachIcon})
-  .bindPopup('Marina Bay Sands')
-  .addTo(map);  
  
 const marker23 = L.marker([1.3084, 103.8858], {icon: bakeryIcon})
   .bindPopup('Mother Dough Bakery')
