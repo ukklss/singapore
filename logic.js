@@ -202,5 +202,5 @@ const marker28 = L.marker([1.2833, 103.8429], {icon: chickenIcon})
   .addTo(map);
 
 const marker30 = L.marker([1.3556, 103.8363], {icon: waffleIcon})
-  .bindPopup('Sin Ming Roti Prata')
+  .bindPopup('<a href="https://goo.gl/maps/jK48qNWiwRDV6HGj9">Sin Ming Roti Prata</a>')
   .addTo(map);
