@@ -167,9 +167,9 @@ const marker21 = L.marker([1.28053, 103.8447], {icon: marketIcon})
   .bindPopup('<a href="https://goo.gl/maps/5tdUeD7miG4mxcuM9"><b>Maxwell Food Centre</b></a> <br /> Tian Tian Hainanese Chicken Rice <br /> Fu Shun Roasted Meat Specialist')
   .addTo(map);
 
-// const marker22 = L.marker([1.3168, 103.8055], {icon: bakeryIcon})
-//   .bindPopup('<a href="https://goo.gl/maps/5BGcu2mJe7V9YTjH8">Bakery Brera & Fine Foods</a>')
-//   .addTo(map);
+const marker22 = L.marker([1.3168, 103.8055], {icon: bakeryIcon})
+  .bindPopup('<a href="https://goo.gl/maps/5BGcu2mJe7V9YTjH8">Bakery Brera & Fine Foods</a>')
+  .addTo(map);
  
 // const marker23 = L.marker([1.3084, 103.8858], {icon: marketIcon})
 //   .bindPopup('<a href="https://goo.gl/maps/5PXm3mbKWPZW9g9z8"><b>Old Airport Road Centre</b></a> <br /> Dong Ji Fried Kway Teow')
